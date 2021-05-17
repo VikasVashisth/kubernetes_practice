@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: sample-pod
+  labels:
+    app: myapp
+spec:
+  containers:
+  - name: first-container
+    image: vikas09/node-hello
+  
